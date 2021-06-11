@@ -1,0 +1,6 @@
+framework module HealthCareLocatorSDK {
+  umbrella header "HealthCareLocatorSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}
