@@ -661,7 +661,7 @@
 		08811C29F8B50F50B83718DDE0FD3EC6 /* Enumerated.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Enumerated.swift; path = RxSwift/Observables/Enumerated.swift; sourceTree = "<group>"; };
 		09812C2623733A7E7C49943D67ED5EC7 /* once.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = once.swift; path = Source/RxSwift/once.swift; sourceTree = "<group>"; };
 		0A3C334C0E33232B2FEA6AE9FB39C5CB /* SearchResultViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SearchResultViewController.swift; path = HealthCareLocatorSDK/HCPSearch/Result/SearchResultViewController.swift; sourceTree = "<group>"; };
-		0B652C30A6186881F838D4B560B9B86D /* HealthCareLocatorSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HealthCareLocatorSDK.framework; path = HealthCareLocatorSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B652C30A6186881F838D4B560B9B86D /* HealthCareLocatorSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HealthCareLocatorSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B89FE9415AB61744778FB8F7D010198 /* ignoreErrors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ignoreErrors.swift; path = Source/RxSwift/ignoreErrors.swift; sourceTree = "<group>"; };
 		0BB4C9F749CB37A7CCDC92E2A482A64C /* Switch.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Switch.swift; path = RxSwift/Observables/Switch.swift; sourceTree = "<group>"; };
 		0BB737D178D42774A828E789FAAB6FBC /* TextInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextInput.swift; path = RxCocoa/Common/TextInput.swift; sourceTree = "<group>"; };
@@ -727,7 +727,7 @@
 		2A28F2AEDF52A7718B9029D70896583A /* JSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSON.swift; path = Sources/Apollo/JSON.swift; sourceTree = "<group>"; };
 		2A3670450BBB9ECC70B43A701A7D796E /* RxCollectionViewReactiveArrayDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RxCollectionViewReactiveArrayDataSource.swift; path = RxCocoa/iOS/DataSources/RxCollectionViewReactiveArrayDataSource.swift; sourceTree = "<group>"; };
 		2AD777648B795BCA413B3EE28999DE61 /* SearchResultModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SearchResultModel.swift; path = HealthCareLocatorSDK/Models/SearchResultModel.swift; sourceTree = "<group>"; };
-		2ADC6697A187BEC2A8654DD85151C32B /* Mock-Individuals.json */ = {isa = PBXFileReference; includeInIndex = 1; name = "Mock-Individuals.json"; path = "HealthCareLocatorSDK/Mock/Mock-Individuals.json"; sourceTree = "<group>"; };
+		2ADC6697A187BEC2A8654DD85151C32B /* Mock-Individuals.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; name = "Mock-Individuals.json"; path = "HealthCareLocatorSDK/Mock/Mock-Individuals.json"; sourceTree = "<group>"; };
 		2AE871A17A798E30C15099CEFD4E3C06 /* RxSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RxSwift-dummy.m"; sourceTree = "<group>"; };
 		2B6D74824D67078C16B4C8340560C46C /* UIImage+Additional.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+Additional.swift"; path = "HealthCareLocatorSDK/Commons/Extensions/UIImage+Additional.swift"; sourceTree = "<group>"; };
 		2BA3ED20366B6DCA0AC83C6E15D3DCD8 /* RxTabBarControllerDelegateProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RxTabBarControllerDelegateProxy.swift; path = RxCocoa/iOS/Proxies/RxTabBarControllerDelegateProxy.swift; sourceTree = "<group>"; };
@@ -771,14 +771,14 @@
 		3F5D4BEE3EAC465825D9A03E3B5FE0D8 /* WithLatestFrom.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WithLatestFrom.swift; path = RxSwift/Observables/WithLatestFrom.swift; sourceTree = "<group>"; };
 		3F7E6CD7333BC9A7D89681807F320AFA /* WKWebView+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "WKWebView+Rx.swift"; path = "RxCocoa/iOS/WKWebView+Rx.swift"; sourceTree = "<group>"; };
 		3F98B7EF16102CFAD56FA72AD918580C /* Optional.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Optional.swift; path = RxSwift/Observables/Optional.swift; sourceTree = "<group>"; };
-		400F5AE3030B71D8B89965BDF10F9ECE /* Mock-Activity-Detail.json */ = {isa = PBXFileReference; includeInIndex = 1; name = "Mock-Activity-Detail.json"; path = "HealthCareLocatorSDK/Mock/Mock-Activity-Detail.json"; sourceTree = "<group>"; };
+		400F5AE3030B71D8B89965BDF10F9ECE /* Mock-Activity-Detail.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; name = "Mock-Activity-Detail.json"; path = "HealthCareLocatorSDK/Mock/Mock-Activity-Detail.json"; sourceTree = "<group>"; };
 		402AB92C1112C47A09CB689E85F716C0 /* Zip+arity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Zip+arity.swift"; path = "RxSwift/Observables/Zip+arity.swift"; sourceTree = "<group>"; };
 		405294C0E74D3D6343B3E0E99B5641E1 /* Constants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = HealthCareLocatorSDK/Models/Constants.swift; sourceTree = "<group>"; };
 		4080D0DD931273A93B3D97F7FF435566 /* UIPickerView+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIPickerView+Rx.swift"; path = "RxCocoa/iOS/UIPickerView+Rx.swift"; sourceTree = "<group>"; };
 		40DEDB89D21F56A9839E28341A7593EC /* PrimitiveSequence.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PrimitiveSequence.swift; path = RxSwift/Traits/PrimitiveSequence.swift; sourceTree = "<group>"; };
 		42772C63FAC08E938CCFE9AC964A948C /* RequestBodyCreator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestBodyCreator.swift; path = Sources/Apollo/RequestBodyCreator.swift; sourceTree = "<group>"; };
 		43310AD6ACE55904BD6A44B704C46652 /* SearchAutoComplete.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SearchAutoComplete.swift; path = HealthCareLocatorSDK/Models/SearchAutoComplete.swift; sourceTree = "<group>"; };
-		43FCE2BAB211159454738F0E0C7DFA34 /* Mock-Codes.json */ = {isa = PBXFileReference; includeInIndex = 1; name = "Mock-Codes.json"; path = "HealthCareLocatorSDK/Mock/Mock-Codes.json"; sourceTree = "<group>"; };
+		43FCE2BAB211159454738F0E0C7DFA34 /* Mock-Codes.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; name = "Mock-Codes.json"; path = "HealthCareLocatorSDK/Mock/Mock-Codes.json"; sourceTree = "<group>"; };
 		4484CA8FD51BEA1613628D00A2B03D2C /* Sample.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Sample.swift; path = RxSwift/Observables/Sample.swift; sourceTree = "<group>"; };
 		449339F6748405B52B80BF32524A9740 /* HCLThemeConfigure.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HCLThemeConfigure.swift; path = HealthCareLocatorSDK/Models/HCLThemeConfigure.swift; sourceTree = "<group>"; };
 		44D4C8658E2E809423EDAD2AE71EDE26 /* GraphQLOperation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GraphQLOperation.swift; path = Sources/Apollo/GraphQLOperation.swift; sourceTree = "<group>"; };
@@ -849,7 +849,7 @@
 		640FAC769238C78737AD8C594AE89468 /* Bag.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Bag.swift; path = Platform/DataStructures/Bag.swift; sourceTree = "<group>"; };
 		645128E75E8B984D7A60683444C1E56C /* HCLHCPSearchNavigationViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HCLHCPSearchNavigationViewController.swift; path = HealthCareLocatorSDK/HCPSearch/HCLHCPSearchNavigationViewController.swift; sourceTree = "<group>"; };
 		655C0581265CB607A534F56480F56970 /* DelaySubscription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DelaySubscription.swift; path = RxSwift/Observables/DelaySubscription.swift; sourceTree = "<group>"; };
-		6570EF80D3D9BAC37E653856E44EF351 /* RxSwiftExt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RxSwiftExt.framework; path = RxSwiftExt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6570EF80D3D9BAC37E653856E44EF351 /* RxSwiftExt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxSwiftExt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		659E04B70521C4837C24EE97B1BE5F74 /* AutomaticPersistedQueryInterceptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AutomaticPersistedQueryInterceptor.swift; path = Sources/Apollo/AutomaticPersistedQueryInterceptor.swift; sourceTree = "<group>"; };
 		65B8F568524D5FFE21005610E1EA1F8B /* Signal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Signal.swift; path = RxCocoa/Traits/Signal/Signal.swift; sourceTree = "<group>"; };
 		66EEEA1D433484340E4CB5160D426736 /* SwitchIfEmpty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwitchIfEmpty.swift; path = RxSwift/Observables/SwitchIfEmpty.swift; sourceTree = "<group>"; };
@@ -922,7 +922,7 @@
 		7FBE6B6299625803FDCE203C3D185989 /* SynchronizedUnsubscribeType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SynchronizedUnsubscribeType.swift; path = RxSwift/Concurrency/SynchronizedUnsubscribeType.swift; sourceTree = "<group>"; };
 		804395D254D8A3BD5A5E03DDBAFFD53A /* RxSwiftExt-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RxSwiftExt-Info.plist"; sourceTree = "<group>"; };
 		8090F000B6012AA0D8075CFCE10808E1 /* UIAlertAction+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIAlertAction+Rx.swift"; path = "RxCocoa/iOS/UIAlertAction+Rx.swift"; sourceTree = "<group>"; };
-		809C5FAB588354C9BA37DC3EAB8CB45C /* RxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RxSwift.framework; path = RxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		809C5FAB588354C9BA37DC3EAB8CB45C /* RxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8134D44799F73C559B2D71732A1A5871 /* HealthCareLocatorSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HealthCareLocatorSDK-Info.plist"; sourceTree = "<group>"; };
 		8220560E085B7F01652F35132D68871F /* InterceptorProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InterceptorProvider.swift; path = Sources/Apollo/InterceptorProvider.swift; sourceTree = "<group>"; };
 		8221CED11AF9E06E3F8DA330AC53E07C /* NSTextField+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSTextField+Rx.swift"; path = "RxCocoa/macOS/NSTextField+Rx.swift"; sourceTree = "<group>"; };
@@ -933,7 +933,7 @@
 		85C878A996368CE93E4C0801F1CA9C9A /* NoSearchResultViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NoSearchResultViewController.swift; path = HealthCareLocatorSDK/HCPSearch/Result/NoSearchResultViewController.swift; sourceTree = "<group>"; };
 		85D445B69FA194D346DE0396E651C98C /* SerialDisposable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SerialDisposable.swift; path = RxSwift/Disposables/SerialDisposable.swift; sourceTree = "<group>"; };
 		86832DD6D6C4572EC54F052869DF0010 /* GraphQLOptional.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GraphQLOptional.swift; path = Sources/ApolloCore/GraphQLOptional.swift; sourceTree = "<group>"; };
-		87287331269B567E1B50770E4CB42F0A /* Mock-Activities.json */ = {isa = PBXFileReference; includeInIndex = 1; name = "Mock-Activities.json"; path = "HealthCareLocatorSDK/Mock/Mock-Activities.json"; sourceTree = "<group>"; };
+		87287331269B567E1B50770E4CB42F0A /* Mock-Activities.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; name = "Mock-Activities.json"; path = "HealthCareLocatorSDK/Mock/Mock-Activities.json"; sourceTree = "<group>"; };
 		8868EC31B708F858278ACE3F6D13BD69 /* Queue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Queue.swift; path = Platform/DataStructures/Queue.swift; sourceTree = "<group>"; };
 		88FA6CC027E4148D65B54239F8532CC1 /* NormalizedCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NormalizedCache.swift; path = Sources/Apollo/NormalizedCache.swift; sourceTree = "<group>"; };
 		8929576652B52D2A630B24E32731823D /* LegacyParsingInterceptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LegacyParsingInterceptor.swift; path = Sources/Apollo/LegacyParsingInterceptor.swift; sourceTree = "<group>"; };
@@ -948,7 +948,7 @@
 		8DA91525858091A9650F72F1351870C9 /* GroupedObservable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GroupedObservable.swift; path = RxSwift/GroupedObservable.swift; sourceTree = "<group>"; };
 		8E0D50518396E25CF7C00A9AD9E48090 /* UILabel+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UILabel+Rx.swift"; path = "RxCocoa/iOS/UILabel+Rx.swift"; sourceTree = "<group>"; };
 		8ED3714AF03673FBE36085191E89758D /* HealthCareLocatorSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HealthCareLocatorSDK.release.xcconfig; sourceTree = "<group>"; };
-		8F1FA46A3C7AA9081BA3650A49BDE9FE /* Apollo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Apollo.framework; path = Apollo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F1FA46A3C7AA9081BA3650A49BDE9FE /* Apollo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Apollo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F3EFE113B890129B130C1AFA39A033E /* Observable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Observable.swift; path = RxSwift/Observable.swift; sourceTree = "<group>"; };
 		8F765487FC09389D6BD8272F2F8AB463 /* Activity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Activity.swift; path = HealthCareLocatorSDK/Models/APIs/Activity.swift; sourceTree = "<group>"; };
 		8FF8922495FB5AA072FC7B854DFBC00A /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/MapKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -978,7 +978,7 @@
 		9CD8D222400D38F61612F5C7EA4E1831 /* HealthCareLocatorSDK.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = HealthCareLocatorSDK.strings; path = en.lproj/HealthCareLocatorSDK.strings; sourceTree = "<group>"; };
 		9CF2D91672524759054BBCD1E3F8448E /* SearchResultListViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SearchResultListViewController.swift; path = HealthCareLocatorSDK/HCPSearch/Result/List/SearchResultListViewController.swift; sourceTree = "<group>"; };
 		9D0F336AA823C1B3DB41EA4777A04501 /* CodableParsingInterceptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CodableParsingInterceptor.swift; path = Sources/Apollo/CodableParsingInterceptor.swift; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E4661935F8EE3B0E62124E9470CD185 /* ObservableType+PrimitiveSequence.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ObservableType+PrimitiveSequence.swift"; path = "RxSwift/Traits/ObservableType+PrimitiveSequence.swift"; sourceTree = "<group>"; };
 		9EAAF590F33A0B26970747D92D478B98 /* RxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9ED4B56E4CA4CBD3DE7BA8DEA53FB776 /* Generate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Generate.swift; path = RxSwift/Observables/Generate.swift; sourceTree = "<group>"; };
@@ -1040,7 +1040,7 @@
 		B8885986FA0A02855500BC8651F3A873 /* SearchInputDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SearchInputDataSource.swift; path = HealthCareLocatorSDK/HCPSearch/Input/SearchInputDataSource.swift; sourceTree = "<group>"; };
 		BA072AF1DB4335C13EC89A63DDDD5B60 /* ActivityHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActivityHandler.swift; path = HealthCareLocatorSDK/Commons/Adapters/ActivityHandler.swift; sourceTree = "<group>"; };
 		BC0EE5F5BA5355B9EE5B8B93FC357146 /* GraphQLSelectionSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GraphQLSelectionSet.swift; path = Sources/Apollo/GraphQLSelectionSet.swift; sourceTree = "<group>"; };
-		BC432FD48A5932251F1CAFBC4BF74894 /* RxCocoa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RxCocoa.framework; path = RxCocoa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC432FD48A5932251F1CAFBC4BF74894 /* RxCocoa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxCocoa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC8948B762FD71704604C783E18CBA74 /* Completable+AndThen.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Completable+AndThen.swift"; path = "RxSwift/Traits/Completable+AndThen.swift"; sourceTree = "<group>"; };
 		BCFFFBB729BA75CB8652EBFBE2674704 /* UITabBarItem+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITabBarItem+Rx.swift"; path = "RxCocoa/iOS/UITabBarItem+Rx.swift"; sourceTree = "<group>"; };
 		BD4020D67B636B3090EBDFEB1A81B74D /* RxRelay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxRelay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1077,7 +1077,7 @@
 		C95CDE5E32A1D6B3C85ACA32E7A2480D /* TakeLast.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TakeLast.swift; path = RxSwift/Observables/TakeLast.swift; sourceTree = "<group>"; };
 		C969347511292ED7CC584B85BCC8D665 /* JSONStandardTypeConversions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSONStandardTypeConversions.swift; path = Sources/Apollo/JSONStandardTypeConversions.swift; sourceTree = "<group>"; };
 		C9EF8AE3EA27911A1B99F99D6CBF3124 /* Maybe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Maybe.swift; path = RxSwift/Traits/Maybe.swift; sourceTree = "<group>"; };
-		CA51C1F9C8BAC4759EA60BA14BDB14AB /* mock-data.json */ = {isa = PBXFileReference; includeInIndex = 1; name = "mock-data.json"; path = "HealthCareLocatorSDK/Mock/mock-data.json"; sourceTree = "<group>"; };
+		CA51C1F9C8BAC4759EA60BA14BDB14AB /* mock-data.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; name = "mock-data.json"; path = "HealthCareLocatorSDK/Mock/mock-data.json"; sourceTree = "<group>"; };
 		CA75BB2972B3EA0BCAC9E0F22D4ED676 /* HealthCareLocatorSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HealthCareLocatorSDK.debug.xcconfig; sourceTree = "<group>"; };
 		CBA372D76DC95A037868A3FC6232DF56 /* Pods-covidApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-covidApp-dummy.m"; sourceTree = "<group>"; };
 		CD63EE4B9A87417B48502066168112B9 /* RxSwiftExt.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RxSwiftExt.modulemap; sourceTree = "<group>"; };
@@ -1156,7 +1156,7 @@
 		EAF30DE416BB9CF335AD3C6AA39BB0CA /* Individual.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Individual.swift; path = HealthCareLocatorSDK/Models/APIs/Individual.swift; sourceTree = "<group>"; };
 		EB6EB320425BDF79EB077F7335778819 /* Disposables.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Disposables.swift; path = RxSwift/Disposables/Disposables.swift; sourceTree = "<group>"; };
 		EBABC3094314E67DC116979F876E4874 /* ApolloClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ApolloClient.swift; path = Sources/Apollo/ApolloClient.swift; sourceTree = "<group>"; };
-		EBC58C3EA4527B279DB282B2D6EAD4EE /* Pods_covidApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_covidApp.framework; path = "Pods-covidApp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBC58C3EA4527B279DB282B2D6EAD4EE /* Pods_covidApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_covidApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC79BD01904893458395B9E4F6E569C7 /* AnonymousDisposable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnonymousDisposable.swift; path = RxSwift/Disposables/AnonymousDisposable.swift; sourceTree = "<group>"; };
 		EEB7014F35EFB711B0F232ACE5BF9406 /* SearchInputValidator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SearchInputValidator.swift; path = HealthCareLocatorSDK/HCPSearch/Input/SearchInputValidator.swift; sourceTree = "<group>"; };
 		EED2BEFAAD2CA91398E3E29BD7F46E71 /* GraphQLDependencyTracker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GraphQLDependencyTracker.swift; path = Sources/Apollo/GraphQLDependencyTracker.swift; sourceTree = "<group>"; };
@@ -1196,7 +1196,7 @@
 		FE960888871090995104099C1219AFC5 /* RxTableViewDataSourceProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RxTableViewDataSourceProxy.swift; path = RxCocoa/iOS/Proxies/RxTableViewDataSourceProxy.swift; sourceTree = "<group>"; };
 		FF3376C2DF9F5487F2C025BF94BB1446 /* UploadRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UploadRequest.swift; path = Sources/Apollo/UploadRequest.swift; sourceTree = "<group>"; };
 		FF745489D62204F5145FFC29185C47CC /* AsMaybe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AsMaybe.swift; path = RxSwift/Observables/AsMaybe.swift; sourceTree = "<group>"; };
-		FF8B264DFE802855D5D67E7CDDABFC3C /* RxRelay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RxRelay.framework; path = RxRelay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF8B264DFE802855D5D67E7CDDABFC3C /* RxRelay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxRelay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFF872DF8983BD6746052DE0AB6E2A82 /* SearchInputViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SearchInputViewController.swift; path = HealthCareLocatorSDK/HCPSearch/Input/SearchInputViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -1279,7 +1279,6 @@
 				6FC7F43ACB2BEFE6CD4A5E6C6F3FF909 /* Utils.swift */,
 				797B8D4D5F9DAA1EB12F17553062DD0D /* Support Files */,
 			);
-			name = RxRelay;
 			path = RxRelay;
 			sourceTree = "<group>";
 		};
@@ -1396,7 +1395,6 @@
 				23B1206846E89426884AECE36FBC2088 /* Resources */,
 				3741DC133E13FB186F493716D2A06C8A /* Support Files */,
 			);
-			name = HealthCareLocatorSDK;
 			path = HealthCareLocatorSDK;
 			sourceTree = "<group>";
 		};
@@ -1566,7 +1564,6 @@
 				3F7E6CD7333BC9A7D89681807F320AFA /* WKWebView+Rx.swift */,
 				EE46933EF8DF1CF53E38831E177E1570 /* Support Files */,
 			);
-			name = RxCocoa;
 			path = RxCocoa;
 			sourceTree = "<group>";
 		};
@@ -1672,7 +1669,6 @@
 				B268A7C7CE12FD0E012E3843EC0F6FFC /* RxCocoa */,
 				B0C1F526669F1394B56C0F76DA941D0B /* Support Files */,
 			);
-			name = RxSwiftExt;
 			path = RxSwiftExt;
 			sourceTree = "<group>";
 		};
@@ -1831,7 +1827,6 @@
 				015743A37D78C2E329FA8C77DBCE42E4 /* Zip+Collection.swift */,
 				9B96D1DB85AE860A39FC0372A50CD3F8 /* Support Files */,
 			);
-			name = RxSwift;
 			path = RxSwift;
 			sourceTree = "<group>";
 		};
@@ -1841,7 +1836,6 @@
 				33801899C4B57942350632517F591943 /* Core */,
 				B512F5999752F804F17B8AD452CBC9B4 /* Support Files */,
 			);
-			name = Apollo;
 			path = Apollo;
 			sourceTree = "<group>";
 		};
@@ -2248,6 +2242,7 @@
 			knownRegions = (
 				en,
 				Base,
+				fr,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
 			productRefGroup = 1EE409360773DD059672FD306378351D /* Products */;
