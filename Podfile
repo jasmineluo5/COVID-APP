@@ -7,4 +7,5 @@ target 'covidApp' do
 
   # Pods for covidApp
   pod 'HealthCareLocatorSDK'
+  pod 'SwipeableTabBarController'
 end
