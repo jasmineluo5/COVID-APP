@@ -13,7 +13,7 @@
 		7FA0FFDE2674117800F5A934 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA0FFDD2674117800F5A934 /* ViewController.swift */; };
 		7FA0FFE12674117800F5A934 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FA0FFDF2674117800F5A934 /* Main.storyboard */; };
 		7FA0FFE32674118000F5A934 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FA0FFE22674118000F5A934 /* Assets.xcassets */; };
-		7FA0FFE62674118000F5A934 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FA0FFE42674118000F5A934 /* LaunchScreen.storyboard */; };
+		A0FC53CE267E579200443B70 /* LanguageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0FC53CD267E579200443B70 /* LanguageViewController.swift */; };
 		D261F3F38152DFBA7E33BD2F /* Pods_covidApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EF0AB0F739BA86D50956500 /* Pods_covidApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -26,9 +26,9 @@
 		7FA0FFDD2674117800F5A934 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7FA0FFE02674117800F5A934 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7FA0FFE22674118000F5A934 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		7FA0FFE52674118000F5A934 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7FA0FFE72674118000F5A934 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8F73D5C7DD2676B693EC9BD2 /* Pods-covidApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-covidApp.release.xcconfig"; path = "Target Support Files/Pods-covidApp/Pods-covidApp.release.xcconfig"; sourceTree = "<group>"; };
+		A0FC53CD267E579200443B70 /* LanguageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageViewController.swift; sourceTree = "<group>"; };
 		FCD61E4B2250799E0164D665 /* Pods-covidApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-covidApp.debug.xcconfig"; path = "Target Support Files/Pods-covidApp/Pods-covidApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -88,8 +88,8 @@
 				7FA0FFDF2674117800F5A934 /* Main.storyboard */,
 				2CFD875C267B31BB001724E8 /* HomeController.swift */,
 				7FA0FFE22674118000F5A934 /* Assets.xcassets */,
-				7FA0FFE42674118000F5A934 /* LaunchScreen.storyboard */,
 				7FA0FFE72674118000F5A934 /* Info.plist */,
+				A0FC53CD267E579200443B70 /* LanguageViewController.swift */,
 			);
 			path = covidApp;
 			sourceTree = "<group>";
@@ -153,7 +153,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7FA0FFE62674118000F5A934 /* LaunchScreen.storyboard in Resources */,
 				7FA0FFE32674118000F5A934 /* Assets.xcassets in Resources */,
 				7FA0FFE12674117800F5A934 /* Main.storyboard in Resources */,
 			);
@@ -208,6 +207,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0FC53CE267E579200443B70 /* LanguageViewController.swift in Sources */,
 				2CFD875D267B31BB001724E8 /* HomeController.swift in Sources */,
 				7FA0FFDE2674117800F5A934 /* ViewController.swift in Sources */,
 				7FA0FFDA2674117800F5A934 /* AppDelegate.swift in Sources */,
@@ -224,14 +224,6 @@
 				7FA0FFE02674117800F5A934 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		7FA0FFE42674118000F5A934 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7FA0FFE52674118000F5A934 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
