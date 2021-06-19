@@ -7,11 +7,13 @@
 
 import UIKit
 import HealthCareLocatorSDK
+import UberRides
+import CoreLocation
 
 class ViewController: UIViewController {
 
     @IBOutlet weak var wrapperView: UIView!
-
+    @IBOutlet weak var uberButtonView: UIView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -42,6 +44,22 @@ class ViewController: UIViewController {
          let searchHCPVC = shared.getHCPSearchViewController()
         shared.setLocale(language: .english)
         setupSearchView(searchVC: searchHCPVC)
+        
+        //setting up requesting uber button
+        let button = RideRequestButton()
+        
+        // set a dropoffLocation
+        let dropoffLocation = CLLocation(latitude: 37.6213129, longitude: -122.3789554)
+        let builder = RideParametersBuilder()
+        builder.dropoffLocation = dropoffLocation
+        builder.dropoffNickname = "Awesome Airport"
+        button.rideParameters = builder.build()
+
+        //center the button
+        button.center.x = uberButtonView.center.x
+
+        //put the button in the view
+        uberButtonView.addSubview(button)
 
     }
     
@@ -49,6 +67,7 @@ class ViewController: UIViewController {
     @IBAction func French(_ sender: UIButton) {
     }
     
+
     
     //For showing the view of the HealthcareSDK
     private func setupSearchView(searchVC: HCLHCPSearchNavigationViewController) {

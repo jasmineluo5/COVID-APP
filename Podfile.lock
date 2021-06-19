@@ -22,10 +22,14 @@ PODS:
     - RxCocoa (~> 5.0)
     - RxSwiftExt/Core
   - SwipeableTabBarController (3.4.1)
+  - UberCore (0.13.0)
+  - UberRides (0.13.0):
+    - UberCore
 
 DEPENDENCIES:
   - HealthCareLocatorSDK
   - SwipeableTabBarController
+  - UberRides (~> 0.9)
 
 SPEC REPOS:
   trunk:
@@ -36,6 +40,8 @@ SPEC REPOS:
     - RxSwift
     - RxSwiftExt
     - SwipeableTabBarController
+    - UberCore
+    - UberRides
 
 SPEC CHECKSUMS:
   Apollo: a8dbf1a55e8860bfbe3e4274919721d102c85413
@@ -45,7 +51,9 @@ SPEC CHECKSUMS:
   RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
   RxSwiftExt: 4ca80336f43c28f11a2825cdd2fc61dd6c044697
   SwipeableTabBarController: 3f0cb293ce45bf02bed80190319bcbcb16708e0b
+  UberCore: 27cd75eff06f70c57897fa3dcec1eb015a8c24ad
+  UberRides: 6344d67ed1547b6b66c88f5c15dd659d9028217d
 
-PODFILE CHECKSUM: 2b6b4e213f725c7449e87f963173aabac2ec914a
+PODFILE CHECKSUM: 0f88e6945a8448be538e631fbc73c89471adab2a
 
 COCOAPODS: 1.10.1

@@ -60,5 +60,36 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+    
+    <key>UberClientID</key>
+    <string>szo56Za5jhVU5d2v4lKx95FfOYBnAyxL</string>
+    <key>UberDisplayName</key>
+    <string>COVID App</string>
+    <key>LSApplicationQueriesSchemes</key>
+    <array>
+        <string>uber</string>
+        <string>uberauth</string>
+    </array>
+    
+    <key>UberCallbackURIs</key>
+    <array>
+        <dict>
+            <key>UberCallbackURIType</key>
+            <string>General</string>
+            <key>URIString</key>
+            <string>covidApp.covidApp://oauth/consumer</string>
+        </dict>
+    </array>
+    <key>CFBundleURLTypes</key>
+    <array>
+        <dict>
+            <key>CFBundleTypeRole</key>
+            <string>Editor</string>
+            <key>CFBundleURLSchemes</key>
+            <array>
+                <string>covidApp.covidApp</string>
+            </array>
+        </dict>
+    </array>
 </dict>
 </plist>

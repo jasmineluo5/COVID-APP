@@ -6,3 +6,5 @@ ${BUILT_PRODUCTS_DIR}/RxRelay/RxRelay.framework
 ${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework
 ${BUILT_PRODUCTS_DIR}/RxSwiftExt/RxSwiftExt.framework
 ${BUILT_PRODUCTS_DIR}/SwipeableTabBarController/SwipeableTabBarController.framework
+${BUILT_PRODUCTS_DIR}/UberCore/UberCore.framework
+${BUILT_PRODUCTS_DIR}/UberRides/UberRides.framework

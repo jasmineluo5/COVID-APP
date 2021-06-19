@@ -8,4 +8,7 @@ target 'covidApp' do
   # Pods for covidApp
   pod 'HealthCareLocatorSDK'
   pod 'SwipeableTabBarController'
+  
+  #Pod for Uber API
+  pod 'UberRides', '~> 0.9'
 end
