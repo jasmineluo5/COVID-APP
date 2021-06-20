@@ -12,12 +12,24 @@ class HomeController: UIViewController {
     let quoteArray = ["Laziness may appear attractive, but work gives satisfaction.", "The opportunity of defeating the enemy is provided by the enemy himself", "Be the CHANGE that you wish to see in the world.","The best view comes after the hardest climb", "After darkness there always comes light - but we must wait to see it"]
 
     @IBOutlet weak var lblQuote: UILabel!
+    @IBOutlet weak var heartImage: UIImageView!
     
+    @IBOutlet weak var getStartedButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+
         lblQuote.numberOfLines = 0
         lblQuote.text = quoteArray.randomElement()
+        heartImage.layer.cornerRadius = heartImage.frame.size.width/2
+        heartImage.clipsToBounds = true
+        getStartedButton.layer.cornerRadius = 8
+        let testButton = GradientButton(frame:CGRect(x:0,y:0, width:220, height:50))
+        view.addSubview(testButton)
+        testButton.center = view.center
+        testButton.setTitle("TEST", for: .normal)
+        testButton.layer.cornerRadius = 8
         // Do any additional setup after loading the view.
     }
     

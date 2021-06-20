@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C405970267EE01D002BC614 /* GradientButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C40596F267EE01D002BC614 /* GradientButton.swift */; };
 		2CFD875D267B31BB001724E8 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFD875C267B31BB001724E8 /* HomeController.swift */; };
-		51BCA6D6267E912E00F2B9B2 /* UberRideRequestButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BCA6D5267E912E00F2B9B2 /* UberRideRequestButton.swift */; };
 		7FA0FFDA2674117800F5A934 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA0FFD92674117800F5A934 /* AppDelegate.swift */; };
 		7FA0FFDC2674117800F5A934 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA0FFDB2674117800F5A934 /* SceneDelegate.swift */; };
 		7FA0FFDE2674117800F5A934 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA0FFDD2674117800F5A934 /* ViewController.swift */; };
@@ -20,8 +20,8 @@
 
 /* Begin PBXFileReference section */
 		1EF0AB0F739BA86D50956500 /* Pods_covidApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_covidApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C40596F267EE01D002BC614 /* GradientButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientButton.swift; sourceTree = "<group>"; };
 		2CFD875C267B31BB001724E8 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
-		51BCA6D5267E912E00F2B9B2 /* UberRideRequestButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UberRideRequestButton.swift; sourceTree = "<group>"; };
 		7FA0FFD62674117800F5A934 /* covidApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = covidApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FA0FFD92674117800F5A934 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7FA0FFDB2674117800F5A934 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -89,10 +89,10 @@
 				7FA0FFDD2674117800F5A934 /* ViewController.swift */,
 				7FA0FFDF2674117800F5A934 /* Main.storyboard */,
 				2CFD875C267B31BB001724E8 /* HomeController.swift */,
+				2C40596F267EE01D002BC614 /* GradientButton.swift */,
 				7FA0FFE22674118000F5A934 /* Assets.xcassets */,
 				7FA0FFE72674118000F5A934 /* Info.plist */,
 				A0FC53CD267E579200443B70 /* LanguageViewController.swift */,
-				51BCA6D5267E912E00F2B9B2 /* UberRideRequestButton.swift */,
 			);
 			path = covidApp;
 			sourceTree = "<group>";
@@ -210,10 +210,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C405970267EE01D002BC614 /* GradientButton.swift in Sources */,
 				A0FC53CE267E579200443B70 /* LanguageViewController.swift in Sources */,
 				2CFD875D267B31BB001724E8 /* HomeController.swift in Sources */,
 				7FA0FFDE2674117800F5A934 /* ViewController.swift in Sources */,
-				51BCA6D6267E912E00F2B9B2 /* UberRideRequestButton.swift in Sources */,
 				7FA0FFDA2674117800F5A934 /* AppDelegate.swift in Sources */,
 				7FA0FFDC2674117800F5A934 /* SceneDelegate.swift in Sources */,
 			);
