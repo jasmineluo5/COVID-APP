@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Lgw-lM-hhx">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Lgw-lM-hhx">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -16,21 +16,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FmF-9C-tb9">
-                                <rect key="frame" x="136" y="44" width="142" height="41"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemGreenColor"/>
-                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="15"/>
-                                <state key="normal" title="-&gt;French">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="17" weight="bold"/>
-                                </state>
-                                <connections>
-                                    <action selector="French:" destination="28e-av-ChY" eventType="touchUpInside" id="Ari-zu-ruC"/>
-                                    <action selector="French:" destination="WZe-AG-lVt" eventType="touchUpInside" id="dpK-LL-6F0"/>
-                                    <segue destination="CGK-qs-tWz" kind="show" id="86f-ax-p4d"/>
-                                </connections>
-                            </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" id="TYR-EV-viu">
                                 <rect key="frame" x="0.0" y="93" width="414" height="720"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -49,9 +34,21 @@
                                     <constraint firstItem="wpd-at-rjh" firstAttribute="top" secondItem="TYR-EV-viu" secondAttribute="top" constant="598" id="6Pl-6t-Oat"/>
                                 </constraints>
                             </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n2D-iY-ANw">
+                                <rect key="frame" x="0.0" y="57" width="414" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemGreenColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Switch to French">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" weight="bold"/>
+                                </state>
+                                <connections>
+                                    <segue destination="CGK-qs-tWz" kind="show" id="v49-K3-5CC"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="XNh-FR-F9p"/>
-                        <color key="backgroundColor" red="0.086274509803921567" green="0.086274509803921567" blue="0.094117647058823528" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Search" image="magnifyingglass" catalog="system" selectedImage="magnifyingglass" id="n3t-Hk-w5C"/>
                     <navigationItem key="navigationItem" id="KhB-rh-ad8"/>
@@ -61,7 +58,6 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HPA-1i-Ze0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-                <exit id="28e-av-ChY" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="223.18840579710147" y="1169.8660714285713"/>
         </scene>
@@ -117,6 +113,61 @@
             </objects>
             <point key="canvasLocation" x="-678.26086956521749" y="208.92857142857142"/>
         </scene>
+        <!--English-->
+        <scene sceneID="ap1-Kb-KJs">
+            <objects>
+                <navigationController id="BRa-Sy-CaT" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="English" id="odb-DO-DeC">
+                        <inset key="largeContentSizeImageInsets" minX="0.0" minY="1" maxX="0.0" maxY="0.0"/>
+                    </tabBarItem>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="67G-Xq-eOr">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="Ep7-cd-pDq" kind="relationship" relationship="rootViewController" id="IVl-FB-Zem"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="u63-au-b3D" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1441" y="-499"/>
+        </scene>
+        <!--Français-->
+        <scene sceneID="37j-qn-BkT">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hPe-Di-CG1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <navigationController id="oSe-XC-7kQ" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Français" id="afX-Eq-eov"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="mth-lv-Meo">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="QE8-1N-TPb" kind="relationship" relationship="rootViewController" id="CbP-bg-hdd"/>
+                    </connections>
+                </navigationController>
+            </objects>
+            <point key="canvasLocation" x="1441" y="171"/>
+        </scene>
+        <!--Search-->
+        <scene sceneID="5EY-gJ-blI">
+            <objects>
+                <tabBarController id="VL3-WL-REi" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Search" image="magnifyingglass" catalog="system" id="DA7-RK-o2Y"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="fYK-ls-rm0">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="BRa-Sy-CaT" kind="relationship" relationship="viewControllers" id="Zp1-YB-1wh"/>
+                        <segue destination="oSe-XC-7kQ" kind="relationship" relationship="viewControllers" id="p7Z-AZ-ftx"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3qm-lH-kk4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="638" y="-56"/>
+        </scene>
         <!--Swipeable Tab Bar Controller-->
         <scene sceneID="LGf-iS-H3O">
             <objects>
@@ -129,9 +180,8 @@
                     </tabBar>
                     <connections>
                         <segue destination="7lw-pb-gar" kind="relationship" relationship="viewControllers" id="0qT-0c-cqW"/>
-                        <segue destination="WZe-AG-lVt" kind="relationship" relationship="viewControllers" id="RyP-Oh-0GJ"/>
-                        <segue destination="XSX-mp-Dhz" kind="relationship" relationship="viewControllers" id="CRL-qX-mWp"/>
-                        <segue destination="qun-wQ-saw" kind="relationship" relationship="viewControllers" id="Eql-Lg-mGQ"/>
+                        <segue destination="VL3-WL-REi" kind="relationship" relationship="viewControllers" id="Ipa-mQ-HLn"/>
+                        <segue destination="qun-wQ-saw" kind="relationship" relationship="viewControllers" id="wGz-Ow-Koa"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pig-si-PWT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -169,6 +219,7 @@
                         <color key="backgroundColor" red="0.086274509799999996" green="0.086274509799999996" blue="0.094117647060000004" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Favorites" image="star.fill" catalog="system" selectedImage="star.fill" id="wMe-V4-IGZ"/>
+                    <navigationItem key="navigationItem" id="MGj-nU-Zb4"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0KK-BG-qsu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -225,38 +276,115 @@
         <!--Language View Controller-->
         <scene sceneID="9ma-oz-Ig7">
             <objects>
-                <viewController id="CGK-qs-tWz" customClass="LanguageViewController" customModule="covidApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController extendedLayoutIncludesOpaqueBars="YES" id="CGK-qs-tWz" customClass="LanguageViewController" customModule="covidApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="HEE-df-y81">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kiC-Qa-NFw">
-                                <rect key="frame" x="136" y="20" width="142" height="40"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vKx-GF-sWa">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemGreenColor"/>
-                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="15"/>
-                                <state key="normal" title="Back">
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Back to Home">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="17" weight="bold"/>
+                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" weight="bold"/>
                                 </state>
-                                <connections>
-                                    <action selector="Back:" destination="CGK-qs-tWz" eventType="touchUpInside" id="pUd-qb-IjF"/>
-                                    <action selector="French:" destination="WZe-AG-lVt" eventType="touchUpInside" id="Ozg-I7-sfy"/>
-                                    <action selector="French:" destination="28e-av-ChY" eventType="touchUpInside" id="u6p-XZ-V2J"/>
-                                    <segue destination="Lgw-lM-hhx" kind="show" id="XK6-lC-UGL"/>
-                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="poB-r5-Yq2"/>
                     </view>
                     <navigationItem key="navigationItem" id="OZs-3t-aDB"/>
+                    <modalPageSheetSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <connections>
                         <outlet property="wrapperView" destination="HEE-df-y81" id="5E9-DW-h2N"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1xR-fj-rb4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="966.66666666666674" y="1169.8660714285713"/>
+            <point key="canvasLocation" x="983" y="1170"/>
+        </scene>
+        <!--Search-->
+        <scene sceneID="WOY-DO-otk">
+            <objects>
+                <viewController title="Search" id="Ep7-cd-pDq" customClass="ViewController" customModule="covidApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="wIx-jM-IVI">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" id="RF4-Hl-elg">
+                                <rect key="frame" x="0.0" y="93" width="414" height="720"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bsn-wO-nDX">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="598"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uMn-4D-SS5">
+                                        <rect key="frame" x="0.0" y="598" width="414" height="122"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    </view>
+                                </subviews>
+                                <viewLayoutGuide key="safeArea" id="qzf-hU-AfB"/>
+                                <constraints>
+                                    <constraint firstItem="uMn-4D-SS5" firstAttribute="top" secondItem="RF4-Hl-elg" secondAttribute="top" constant="598" id="Owb-Ae-6Fj"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Spt-aB-yg0"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="English" image="magnifyingglass" catalog="system" selectedImage="magnifyingglass" id="IuV-qy-w26"/>
+                    <navigationItem key="navigationItem" title="English" id="M8j-S6-hql"/>
+                    <connections>
+                        <outlet property="uberButtonView" destination="uMn-4D-SS5" id="7zN-M6-zCJ"/>
+                        <outlet property="wrapperView" destination="bsn-wO-nDX" id="cJT-bd-YWJ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5WQ-bu-aDh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2203" y="-500"/>
+        </scene>
+        <!--Search-->
+        <scene sceneID="zLu-3C-lPz">
+            <objects>
+                <viewController title="Search" id="QE8-1N-TPb" customClass="ViewController2" customModule="covidApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Mmi-35-yRx">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" id="zCn-Sc-pNw">
+                                <rect key="frame" x="0.0" y="93" width="414" height="720"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ucg-kU-rFV">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="598"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Drz-sB-XIZ">
+                                        <rect key="frame" x="0.0" y="598" width="414" height="122"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    </view>
+                                </subviews>
+                                <viewLayoutGuide key="safeArea" id="p2C-DB-pIx"/>
+                                <constraints>
+                                    <constraint firstItem="Drz-sB-XIZ" firstAttribute="top" secondItem="zCn-Sc-pNw" secondAttribute="top" constant="598" id="mlr-Dg-bSG"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="hQ1-WA-Vfu"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="French" image="magnifyingglass" catalog="system" selectedImage="magnifyingglass" id="eZy-8w-BXc"/>
+                    <navigationItem key="navigationItem" title="Français" id="FRM-Q8-2hA"/>
+                    <connections>
+                        <outlet property="uberButtonView" destination="Drz-sB-XIZ" id="m0l-7d-qpa"/>
+                        <outlet property="wrapperView" destination="ucg-kU-rFV" id="NxU-WQ-ywU"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="chC-hY-pvO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2203" y="171"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>

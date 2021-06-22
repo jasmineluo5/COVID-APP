@@ -1,8 +1,8 @@
 //
-//  ViewController.swift
+//  ViewController2.swift
 //  covidApp
 //
-//  Created by Ben Ann on 6/11/21.
+//  Created by Jane Zha on 6/23/21.
 //
 
 import UIKit
@@ -10,7 +10,7 @@ import HealthCareLocatorSDK
 import UberRides
 import CoreLocation
 
-class ViewController: UIViewController {
+class ViewController2: UIViewController {
 
     @IBOutlet weak var wrapperView: UIView!
     @IBOutlet weak var uberButtonView: UIView!
@@ -55,7 +55,8 @@ class ViewController: UIViewController {
         shared.initialize(apiKey: "1000e4e9d5bedfb7")
         let searchHCPVC = shared.getHCPSearchViewController()
         setupSearchView(searchVC: searchHCPVC)
-//        
+        shared.setLocale(language: .french)
+//
         //setting up requesting uber button
         let button = RideRequestButton()
 

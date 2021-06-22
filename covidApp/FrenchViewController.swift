@@ -1,20 +1,17 @@
 //
-//  LanguageViewController.swift
+//  FrenchViewController.swift
 //  covidApp
 //
-//  Created by Jane Zha on 6/20/21.
+//  Created by Jane Zha on 6/23/21.
 //
 
 import UIKit
 import HealthCareLocatorSDK
 
-class LanguageViewController: UIViewController {
-
-    @IBOutlet weak var wrapperView: UIView!
+class FrenchViewController: UIViewController {
 
     @IBOutlet weak var seg2: UISegmentedControl!
-    
-    
+    @IBOutlet weak var wrapperView: UIView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,11 +22,8 @@ class LanguageViewController: UIViewController {
         let searchHCPVC = shared.getHCPSearchViewController()
         setupSearchView(searchVC: searchHCPVC)
         shared.setLocale(language: .french)
-//        self.seg2.selectedSegmentIndex = 1
 
     }
-    
-
     
     //For showing the view of the HealthcareSDK
     private func setupSearchView(searchVC: HCLHCPSearchNavigationViewController) {
@@ -47,5 +41,7 @@ class LanguageViewController: UIViewController {
                              NSLayoutConstraint(item: searchView, attribute: .right, relatedBy: .equal, toItem: wrapperView, attribute: .right, multiplier: 1, constant: 0)])
     }
 
+    
+    
 
 }
