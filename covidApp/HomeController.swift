@@ -20,16 +20,16 @@ class HomeController: UIViewController {
         super.viewDidLoad()
         
 
-        lblQuote.numberOfLines = 0
+        lblQuote.numberOfLines = 2
         lblQuote.text = quoteArray.randomElement()
         heartImage.layer.cornerRadius = heartImage.frame.size.width/2
         heartImage.clipsToBounds = true
         getStartedButton.layer.cornerRadius = 8
-        let testButton = GradientButton(frame:CGRect(x:0,y:0, width:220, height:50))
-        view.addSubview(testButton)
-        testButton.center = view.center
-        testButton.setTitle("TEST", for: .normal)
-        testButton.layer.cornerRadius = 8
+//        let testButton = GradientButton(frame:CGRect(x:0,y:0, width:220, height:50))
+//        view.addSubview(testButton)
+//        testButton.center = view.center
+//        testButton.setTitle("TEST", for: .normal)
+//        testButton.layer.cornerRadius = 8
         // Do any additional setup after loading the view.
     }
     
