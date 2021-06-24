@@ -24,6 +24,8 @@ class HomeController: UIViewController {
         lblQuote.text = quoteArray.randomElement()
         heartImage.layer.cornerRadius = heartImage.frame.size.width/2
         heartImage.clipsToBounds = true
+        heartImage.layer.borderColor = UIColor.black.cgColor
+        heartImage.layer.borderWidth = 4;
         getStartedButton.layer.cornerRadius = 8
 //        let testButton = GradientButton(frame:CGRect(x:0,y:0, width:220, height:50))
 //        view.addSubview(testButton)
