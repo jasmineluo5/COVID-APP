@@ -9,7 +9,7 @@ import UIKit
 
 class HomeController: UIViewController {
     
-    let quoteArray = ["Laziness may appear attractive, but work gives satisfaction.", "The opportunity of defeating the enemy is provided by the enemy himself", "Be the CHANGE that you wish to see in the world.","The best view comes after the hardest climb", "After darkness there always comes light - but we must wait to see it"]
+    let quoteArray = ["Laziness may appear attractive, but work gives satisfaction.", "The opportunity of defeating the enemy is provided by the enemy himself.", "Be the change that you wish to see in the world.","The best view comes after the hardest climb.", "After darkness there always comes light - but we must wait to see it."]
 
     @IBOutlet weak var lblQuote: UILabel!
     @IBOutlet weak var heartImage: UIImageView!
@@ -24,7 +24,7 @@ class HomeController: UIViewController {
         lblQuote.text = quoteArray.randomElement()
         heartImage.layer.cornerRadius = heartImage.frame.size.width/2
         heartImage.clipsToBounds = true
-        heartImage.layer.borderColor = UIColor.black.cgColor
+        heartImage.layer.borderColor = UIColor.white.cgColor
         heartImage.layer.borderWidth = 4;
         getStartedButton.layer.cornerRadius = 8
 //        let testButton = GradientButton(frame:CGRect(x:0,y:0, width:220, height:50))
