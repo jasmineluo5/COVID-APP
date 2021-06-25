@@ -202,18 +202,18 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="m9m-Fr-XXM">
-                                <rect key="frame" x="154" y="418" width="106" height="60"/>
+                                <rect key="frame" x="123.5" y="418" width="167" height="60"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="63V-zd-Y7O">
-                                        <rect key="frame" x="0.0" y="0.0" width="106" height="30"/>
-                                        <state key="normal" title="Join a Meeting"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="167" height="30"/>
+                                        <state key="normal" title="Join an Existing Meeting"/>
                                         <connections>
                                             <action selector="joinAMeetingButtonPressed:" destination="wLw-qC-Y9H" eventType="touchUpInside" id="F6k-3y-sGq"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zLe-Ee-9DF">
-                                        <rect key="frame" x="0.0" y="30" width="106" height="30"/>
-                                        <state key="normal" title="Start a Meeting"/>
+                                        <rect key="frame" x="0.0" y="30" width="167" height="30"/>
+                                        <state key="normal" title="Start an Instant Meeting"/>
                                         <connections>
                                             <action selector="startAnInstantMeetingButtonPressed:" destination="wLw-qC-Y9H" eventType="touchUpInside" id="eo3-i7-GQR"/>
                                         </connections>

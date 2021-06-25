@@ -76,8 +76,37 @@ class ZoomViewController: UIViewController {
         // Obtain the MobileRTCAuthService from the Zoom SDK, this service can log in a Zoom user, log out a Zoom user, authorize the Zoom SDK etc.
         if let authorizationService = MobileRTC.shared().getAuthService() {
             // Call the login function in MobileRTCAuthService. This will attempt to log in the user.
+//            if  authorizationService.login(withEmail: email, password: password, rememberMe: false){
+//                let logInAlertController = UIAlertController(title: "Logged in", message: "You have logged In!", preferredStyle: .alert)
+//                let cancelAction = UIAlertAction(title: "Cancel", style: .default, handler: { (action : UIAlertAction!) -> Void in })
+//                let startMeetingAction = UIAlertAction(title: "Start the Meeting", style: .default,handler: { action in
+//                    self.startMeeting()
+//               })
+//                logInAlertController.addAction(cancelAction)
+//                logInAlertController.addAction(startMeetingAction)
+//
+//                self.present(logInAlertController, animated: true, completion: nil)
+//            }
             authorizationService.login(withEmail: email, password: password, rememberMe: false)
+            if( authorizationService.isLoggedIn()){
+                let logInAlertController = UIAlertController(title: "Logged in", message: "You have logged In!", preferredStyle: .alert)
+                                let cancelAction = UIAlertAction(title: "Cancel", style: .default, handler: { (action : UIAlertAction!) -> Void in })
+                                let startMeetingAction = UIAlertAction(title: "Start the Meeting", style: .default,handler: { action in
+                                    self.startMeeting()
+                               })
+                                
+                                logInAlertController.addAction(startMeetingAction)
+                logInAlertController.addAction(cancelAction)
+                                self.present(logInAlertController, animated: true, completion: nil)
+            }
+            else{
+                let errorAlertController = UIAlertController(title: "Error", message: "Error! Please try again", preferredStyle: .alert)
+                let cancelAction = UIAlertAction(title: "Cancel", style: .default, handler: { (action : UIAlertAction!) -> Void in })
+                errorAlertController.addAction(cancelAction)
+                self.present(errorAlertController, animated: true, completion: nil)
+            }
         }
+
     }
 
     /// Creates and starts a Zoom instant meeting. An instant meeting is an unscheduled meeting that begins instantly.
@@ -178,12 +207,20 @@ extension ZoomViewController: MobileRTCMeetingServiceDelegate {
 
     // Is called upon in-meeting errors, join meeting errors, start meeting errors, meeting connection errors, etc.
     func onMeetingError(_ error: MobileRTCMeetError, message: String?) {
+        var errorMsg = ""
         switch error {
         case .passwordError:
+            errorMsg = "Could not join or start meeting because the meeting password was incorrect."
             print("Could not join or start meeting because the meeting password was incorrect.")
         default:
+            errorMsg = "Could not join or start meeting with MobileRTCMeetError: \(error) \(message ?? "")"
             print("Could not join or start meeting with MobileRTCMeetError: \(error) \(message ?? "")")
         }
+        let logInAlertController = UIAlertController(title: "Error", message: errorMsg, preferredStyle: .alert)
+        let cancelAction = UIAlertAction(title: "Cancel", style: .default, handler: { (action : UIAlertAction!) -> Void in })
+        logInAlertController.addAction(cancelAction)
+        self.present(logInAlertController, animated: true, completion: nil)
+
     }
 
     // Is called when the user joins a meeting.
