@@ -19,10 +19,7 @@
 		7FA0FFDE2674117800F5A934 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA0FFDD2674117800F5A934 /* ViewController.swift */; };
 		7FA0FFE12674117800F5A934 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FA0FFDF2674117800F5A934 /* Main.storyboard */; };
 		7FA0FFE32674118000F5A934 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FA0FFE22674118000F5A934 /* Assets.xcassets */; };
-		A07180BE2682694400A9D6A2 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07180BD2682694400A9D6A2 /* TestViewController.swift */; };
 		A07180C12682752B00A9D6A2 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07180C02682752B00A9D6A2 /* ViewController2.swift */; };
-		A0EE867E268252D100B6A5BD /* FrenchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EE867D268252D100B6A5BD /* FrenchViewController.swift */; };
-		A0FC53CE267E579200443B70 /* LanguageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0FC53CD267E579200443B70 /* LanguageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -54,10 +51,7 @@
 		7FA0FFE22674118000F5A934 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7FA0FFE72674118000F5A934 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8F73D5C7DD2676B693EC9BD2 /* Pods-covidApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-covidApp.release.xcconfig"; path = "Target Support Files/Pods-covidApp/Pods-covidApp.release.xcconfig"; sourceTree = "<group>"; };
-		A07180BD2682694400A9D6A2 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 		A07180C02682752B00A9D6A2 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
-		A0EE867D268252D100B6A5BD /* FrenchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrenchViewController.swift; sourceTree = "<group>"; };
-		A0FC53CD267E579200443B70 /* LanguageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageViewController.swift; sourceTree = "<group>"; };
 		FCD61E4B2250799E0164D665 /* Pods-covidApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-covidApp.debug.xcconfig"; path = "Target Support Files/Pods-covidApp/Pods-covidApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -122,9 +116,6 @@
 				2C40596F267EE01D002BC614 /* GradientButton.swift */,
 				7FA0FFE22674118000F5A934 /* Assets.xcassets */,
 				7FA0FFE72674118000F5A934 /* Info.plist */,
-				A0FC53CD267E579200443B70 /* LanguageViewController.swift */,
-				A0EE867D268252D100B6A5BD /* FrenchViewController.swift */,
-				A07180BD2682694400A9D6A2 /* TestViewController.swift */,
 				513780A92682D87D0019B3D1 /* ZoomViewController.swift */,
 			);
 			path = covidApp;
@@ -247,12 +238,9 @@
 			files = (
 				2C405970267EE01D002BC614 /* GradientButton.swift in Sources */,
 				513780AA2682D87D0019B3D1 /* ZoomViewController.swift in Sources */,
-				A0FC53CE267E579200443B70 /* LanguageViewController.swift in Sources */,
 				A07180C12682752B00A9D6A2 /* ViewController2.swift in Sources */,
-				A07180BE2682694400A9D6A2 /* TestViewController.swift in Sources */,
 				2CFD875D267B31BB001724E8 /* HomeController.swift in Sources */,
 				7FA0FFDE2674117800F5A934 /* ViewController.swift in Sources */,
-				A0EE867E268252D100B6A5BD /* FrenchViewController.swift in Sources */,
 				7FA0FFDA2674117800F5A934 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

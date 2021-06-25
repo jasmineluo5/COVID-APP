@@ -68,10 +68,11 @@ class ViewController2: UIViewController {
         button.rideParameters = builder.build()
 
         //center the button
-        button.center.x = uberButtonView.center.x
+      //  button.center.x = uberButtonView.center.x
 
         //put the button in the view
         uberButtonView.addSubview(button)
+        button.frame = CGRect (x: 82, y: -40, width: 250, height: 50)
     }
     
     
@@ -91,8 +92,8 @@ class ViewController2: UIViewController {
         searchVC.didMove(toParent: self)
         wrapperView.addConstraints([NSLayoutConstraint(item: searchView, attribute: .top, relatedBy: .equal, toItem: wrapperView, attribute: .top, multiplier: 1, constant: 0),
                              NSLayoutConstraint(item: searchView, attribute: .left, relatedBy: .equal, toItem: wrapperView, attribute: .left, multiplier: 1, constant: 0),
-                             NSLayoutConstraint(item: searchView, attribute: .bottom, relatedBy: .equal, toItem: wrapperView, attribute: .bottom, multiplier: 1, constant: 100),
-                             NSLayoutConstraint(item: searchView, attribute: .right, relatedBy: .equal, toItem: wrapperView, attribute: .right, multiplier: 1, constant: 0)])
+                             NSLayoutConstraint(item: searchView, attribute: .bottom, relatedBy: .equal, toItem: wrapperView, attribute: .bottom, multiplier: 1, constant: -80),
+                             NSLayoutConstraint(item: searchView, attribute: .right, relatedBy: .equal, toItem: wrapperView, attribute: .right, multiplier: 1, constant: -26)])
     }
 
 
