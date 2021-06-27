@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		2C405970267EE01D002BC614 /* GradientButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C40596F267EE01D002BC614 /* GradientButton.swift */; };
+		2CCD0012268599D8003474F2 /* WavyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCD0011268599D8003474F2 /* WavyView.swift */; };
+		2CCD00142687FCE9003474F2 /* DiagonalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCD00132687FCE9003474F2 /* DiagonalView.swift */; };
+		2CCD001626880201003474F2 /* TriangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCD001526880201003474F2 /* TriangleView.swift */; };
 		2CFD875D267B31BB001724E8 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFD875C267B31BB001724E8 /* HomeController.swift */; };
 		513780A32682D1CC0019B3D1 /* MobileRTCResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 513780A12682D1CC0019B3D1 /* MobileRTCResources.bundle */; };
 		513780A42682D2020019B3D1 /* MobileRTC.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 513780A02682D1CB0019B3D1 /* MobileRTC.xcframework */; };
@@ -40,6 +43,9 @@
 /* Begin PBXFileReference section */
 		1EF0AB0F739BA86D50956500 /* Pods_covidApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_covidApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C40596F267EE01D002BC614 /* GradientButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientButton.swift; sourceTree = "<group>"; };
+		2CCD0011268599D8003474F2 /* WavyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WavyView.swift; sourceTree = "<group>"; };
+		2CCD00132687FCE9003474F2 /* DiagonalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiagonalView.swift; sourceTree = "<group>"; };
+		2CCD001526880201003474F2 /* TriangleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriangleView.swift; sourceTree = "<group>"; };
 		2CFD875C267B31BB001724E8 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		513780A02682D1CB0019B3D1 /* MobileRTC.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = MobileRTC.xcframework; sourceTree = "<group>"; };
 		513780A12682D1CC0019B3D1 /* MobileRTCResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MobileRTCResources.bundle; sourceTree = "<group>"; };
@@ -113,6 +119,9 @@
 				A07180C02682752B00A9D6A2 /* ViewController2.swift */,
 				7FA0FFDF2674117800F5A934 /* Main.storyboard */,
 				2CFD875C267B31BB001724E8 /* HomeController.swift */,
+				2CCD0011268599D8003474F2 /* WavyView.swift */,
+				2CCD00132687FCE9003474F2 /* DiagonalView.swift */,
+				2CCD001526880201003474F2 /* TriangleView.swift */,
 				2C40596F267EE01D002BC614 /* GradientButton.swift */,
 				7FA0FFE22674118000F5A934 /* Assets.xcassets */,
 				7FA0FFE72674118000F5A934 /* Info.plist */,
@@ -238,10 +247,13 @@
 			files = (
 				2C405970267EE01D002BC614 /* GradientButton.swift in Sources */,
 				513780AA2682D87D0019B3D1 /* ZoomViewController.swift in Sources */,
+				2CCD0012268599D8003474F2 /* WavyView.swift in Sources */,
 				A07180C12682752B00A9D6A2 /* ViewController2.swift in Sources */,
 				2CFD875D267B31BB001724E8 /* HomeController.swift in Sources */,
 				7FA0FFDE2674117800F5A934 /* ViewController.swift in Sources */,
 				7FA0FFDA2674117800F5A934 /* AppDelegate.swift in Sources */,
+				2CCD001626880201003474F2 /* TriangleView.swift in Sources */,
+				2CCD00142687FCE9003474F2 /* DiagonalView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
