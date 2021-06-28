@@ -18,6 +18,13 @@ class ZoomViewController: UIViewController {
         
         /// Notification that is used to start a meeting upon log in success.
            NotificationCenter.default.addObserver(self, selector: #selector(userLoggedIn), name: NSNotification.Name(rawValue: "userLoggedIn"), object: nil)
+        
+        let wavyZoom = WavyViewTwo(frame: CGRect(x: 0, y: 200, width: 502, height: 140))
+        self.view.addSubview(wavyZoom)
+        
+        let triangle = TriangleView(frame: CGRect(x: 0, y: 300, width: 502, height: 200))
+        self.view.addSubview(triangle)
+
   }
     // MARK: - IBOutlets
 
