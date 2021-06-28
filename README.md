@@ -6,7 +6,7 @@ People in underserved communities sometimes lack access to immediate information
 
 ## What it does
 - With our app, you can locate nearby healthcare organiziations and identify specific healthcare proivders to cater to specific needs. More specifically, this app is integrated with IQVIA's HealthCare Locator SDK, which has one of the most extensive and accurate healthcare information worldwide, to provide the most comprehensive care.
-- Out app supports mutliple languages for looking up healthcare professionals function.
+- Our app supports mutliple languages for looking up healthcare professionals function.
 - In addition, once a healthcare provider has been selected, our app has integrated the Uber API to allow users to facilitate a ride to your choose healthcare professional. (Downloading the Uber app and Logging into an Uber account is required)
 - You can join a telemedicine session through Zoom without having to logging in, or starting an instant meeting after logging onto Zoom.
 
