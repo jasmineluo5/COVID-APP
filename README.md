@@ -1,5 +1,5 @@
 # COVID-APP
-This app is #todo!
+This app is a ios app designed to help people in underserved communities cope with COVID-19 and bring convenience of accessing healthcare in those communities.
 
 ## Inspiration
 People in underserved communities usually lack access to immediate information, such as information about COVID vaccines. Furthermore, they lack resources for healthcare, usually caused by the lack of transportations and language barrier. Our app was inspired by this fact and we aim to help them overcome the challenges to access information and resources and improve the healthcare system within the underserved communities.
