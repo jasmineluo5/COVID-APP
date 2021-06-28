@@ -32,3 +32,10 @@ We are proud that we were able to pick up the Swift language within a short peri
 - Support more languages, so far the app only supports English and French
 - Implement the Android version
 - Fully functioning Uber feature
+
+
+Sources: 
+
+Several of the following sources were used and adapted as following to our program:
+https://stackoverflow.com/questions/30650343/triangle-uiview-swift
+https://stackoverflow.com/questions/43623621/changing-the-shape-of-a-uiview-border
