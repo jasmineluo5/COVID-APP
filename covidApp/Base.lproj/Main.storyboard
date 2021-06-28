@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Lgw-lM-hhx">
-    <device id="retina6_7" orientation="portrait" appearance="light"/>
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
@@ -14,14 +14,14 @@
             <objects>
                 <viewController title="Home" id="7lw-pb-gar" customClass="HomeController" customModule="covidApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="V5T-0W-MxB">
-                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="y2B-Ik-r4X">
-                                <rect key="frame" x="0.0" y="83" width="428" height="229"/>
+                                <rect key="frame" x="0.0" y="83" width="390" height="147"/>
                                 <subviews>
                                     <label autoresizesSubviews="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iMO-If-RRh">
-                                        <rect key="frame" x="8" y="13" width="412" height="110"/>
+                                        <rect key="frame" x="8" y="13" width="374" height="28"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <color key="tintColor" systemColor="opaqueSeparatorColor"/>
                                         <fontDescription key="fontDescription" name="EuphemiaUCAS-Bold" family="Euphemia UCAS" pointSize="20"/>
@@ -38,7 +38,7 @@
                                 </constraints>
                             </view>
                             <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="7CJ-ao-wOy">
-                                <rect key="frame" x="0.0" y="281" width="428" height="209"/>
+                                <rect key="frame" x="0.0" y="281" width="390" height="209"/>
                                 <color key="backgroundColor" red="0.94117647058823528" green="0.95686274509803915" blue="0.98431372549019602" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="209" id="I1J-GQ-YAe"/>
@@ -46,19 +46,19 @@
                                 </constraints>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" image="25623789" translatesAutoresizingMaskIntoConstraints="NO" id="Q2Y-6P-jij">
-                                <rect key="frame" x="89" y="326" width="250" height="250"/>
+                                <rect key="frame" x="70" y="244" width="250" height="250"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="250" id="5BM-fR-inu"/>
                                     <constraint firstAttribute="width" constant="250" id="627-3r-hKz"/>
                                 </constraints>
                             </imageView>
                             <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BY6-Ii-75V" customClass="GradientButton" customModule="covidApp" customModuleProvider="target">
-                                <rect key="frame" x="197" y="625.66666666666663" width="55" height="40.333333333333371"/>
+                                <rect key="frame" x="178" y="543.66666666666663" width="55" height="40.333333333333371"/>
                                 <fontDescription key="fontDescription" name="EuphemiaUCAS-Bold" family="Euphemia UCAS" pointSize="17"/>
                                 <state key="normal" title="Log In"/>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rjV-2M-DJn">
-                                <rect key="frame" x="195" y="674" width="97" height="34"/>
+                                <rect key="frame" x="157" y="592" width="97" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="97" id="poA-Tf-bh8"/>
                                 </constraints>
@@ -66,7 +66,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="YNY-JA-ggD">
-                                <rect key="frame" x="192" y="733" width="97" height="34"/>
+                                <rect key="frame" x="154" y="651" width="97" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
@@ -129,7 +129,7 @@
                         <inset key="largeContentSizeImageInsets" minX="0.0" minY="1" maxX="0.0" maxY="0.0"/>
                     </tabBarItem>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="67G-Xq-eOr">
-                        <rect key="frame" x="0.0" y="44" width="428" height="44"/>
+                        <rect key="frame" x="0.0" y="44" width="390" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -146,7 +146,7 @@
                 <navigationController id="oSe-XC-7kQ" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Français" id="afX-Eq-eov"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="mth-lv-Meo">
-                        <rect key="frame" x="0.0" y="44" width="428" height="44"/>
+                        <rect key="frame" x="0.0" y="44" width="390" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -182,27 +182,17 @@
             <objects>
                 <viewController id="L8j-hb-7gL" userLabel="Zoom View Controller" customClass="ZoomViewController" customModule="covidApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="eUu-K5-66q">
-                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Have a Meeting ID? Connect with your Doctor Here." textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AfM-vZ-PLP">
-                                <rect key="frame" x="0.0" y="-22" width="428" height="229"/>
-                                <color key="backgroundColor" red="0.59824484590000004" green="0.67408400769999999" blue="0.80037134889999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="229" id="6t6-gD-yNc"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="EuphemiaUCAS-Bold" family="Euphemia UCAS" pointSize="15"/>
-                                <color key="textColor" red="0.85882352939999995" green="0.83921568629999999" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="zoomLogo" translatesAutoresizingMaskIntoConstraints="NO" id="yXq-Gz-SAx">
-                                <rect key="frame" x="64" y="684" width="300" height="128"/>
+                                <rect key="frame" x="64" y="602" width="262" height="128"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="128" id="ypw-gq-36v"/>
                                 </constraints>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="dx8-gM-Jbn">
-                                <rect key="frame" x="120" y="564" width="188" height="60"/>
+                                <rect key="frame" x="101" y="523" width="188" height="60"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v2R-Pa-XPg">
                                         <rect key="frame" x="0.0" y="0.0" width="188" height="30"/>
@@ -219,12 +209,26 @@
                                         </connections>
                                     </button>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstItem="kHl-Ug-Exc" firstAttribute="centerX" secondItem="dx8-gM-Jbn" secondAttribute="centerX" id="re0-80-BZC"/>
+                                </constraints>
                             </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Have a Meeting ID? Connect with your Doctor Here." textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AfM-vZ-PLP">
+                                <rect key="frame" x="0.0" y="-24" width="390" height="229"/>
+                                <color key="backgroundColor" red="0.59824484590000004" green="0.67408400769999999" blue="0.80037134889999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="229" id="6t6-gD-yNc"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="EuphemiaUCAS-Bold" family="Euphemia UCAS" pointSize="13"/>
+                                <color key="textColor" red="0.85882352939999995" green="0.83921568629999999" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6at-Lr-Npu"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="AfM-vZ-PLP" firstAttribute="top" secondItem="eUu-K5-66q" secondAttribute="topMargin" constant="-66" id="3bT-l0-RbG"/>
+                            <constraint firstItem="AfM-vZ-PLP" firstAttribute="top" secondItem="eUu-K5-66q" secondAttribute="topMargin" constant="-68" id="3bT-l0-RbG"/>
+                            <constraint firstItem="dx8-gM-Jbn" firstAttribute="centerX" secondItem="eUu-K5-66q" secondAttribute="centerX" id="Aa6-BA-eR6"/>
                             <constraint firstItem="yXq-Gz-SAx" firstAttribute="leading" secondItem="6at-Lr-Npu" secondAttribute="leading" constant="64" id="CDv-Md-NVT"/>
                             <constraint firstItem="dx8-gM-Jbn" firstAttribute="centerX" secondItem="AfM-vZ-PLP" secondAttribute="centerX" id="Cf3-RN-oOJ"/>
                             <constraint firstItem="dx8-gM-Jbn" firstAttribute="centerY" secondItem="eUu-K5-66q" secondAttribute="centerY" constant="131" id="Sym-ZJ-nhm"/>
@@ -241,7 +245,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UIY-Nx-Gtm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-688.31775700934577" y="-832.61339092872572"/>
+            <point key="canvasLocation" x="-689.23076923076917" y="-833.17535545023691"/>
         </scene>
         <!--Swipeable Tab Bar Controller-->
         <scene sceneID="LGf-iS-H3O">
@@ -269,32 +273,32 @@
             <objects>
                 <viewController title="Settings" id="LME-a5-89C" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="nFC-ak-QcS">
-                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SDKLogo" translatesAutoresizingMaskIntoConstraints="NO" id="Xtj-ob-x98">
-                                <rect key="frame" x="20" y="135" width="254" height="103"/>
+                                <rect key="frame" x="16" y="135" width="220" height="103"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="wXL-hc-OzS">
-                                <rect key="frame" x="0.0" y="88" width="428" height="39"/>
+                                <rect key="frame" x="0.0" y="88" width="390" height="39"/>
                                 <color key="backgroundColor" red="0.59999999999999998" green="0.67843137254901964" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="39" id="fo1-Jn-VV7"/>
                                 </constraints>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="magnifyingglass" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="AUM-aD-Z0g">
-                                <rect key="frame" x="43.333333333333336" y="249.33333333333334" width="19.666666666666664" height="33.666666666666657"/>
+                                <rect key="frame" x="43.333333333333336" y="248.33333333333334" width="19.666666666666664" height="33.666666666666657"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="36" id="qaP-TX-Qmb"/>
                                 </constraints>
                             </imageView>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Search" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dps-KM-Zss">
-                                <rect key="frame" x="71" y="249" width="286" height="34"/>
+                                <rect key="frame" x="71" y="249" width="248" height="32"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="ezJ-n3-5fV">
-                                <rect key="frame" x="185.66666666666666" y="291" width="57" height="90"/>
+                                <rect key="frame" x="166.66666666666666" y="289" width="57" height="90"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gub-zB-VFc">
                                         <rect key="frame" x="0.0" y="0.0" width="57" height="30"/>
@@ -311,7 +315,7 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="HHQ-f8-7ib">
-                                <rect key="frame" x="71" y="291" width="299" height="80"/>
+                                <rect key="frame" x="71" y="289" width="261" height="0.0"/>
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="GM3-oz-UlG"/>
@@ -357,7 +361,7 @@
                     <tabBarItem key="tabBarItem" title="Settings" image="gear" catalog="system" selectedImage="gear" id="GjV-ol-zDa"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="OTc-gH-zSO">
-                        <rect key="frame" x="0.0" y="44" width="428" height="44"/>
+                        <rect key="frame" x="0.0" y="44" width="390" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -374,7 +378,7 @@
             <objects>
                 <viewController title="Search" id="Ep7-cd-pDq" customClass="ViewController" customModule="covidApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="wIx-jM-IVI">
-                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" id="RF4-Hl-elg">
@@ -422,7 +426,7 @@
             <objects>
                 <viewController title="Search" id="QE8-1N-TPb" customClass="ViewController2" customModule="covidApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Mmi-35-yRx">
-                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" id="zCn-Sc-pNw">
