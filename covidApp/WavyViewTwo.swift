@@ -20,7 +20,7 @@ class WavyViewTwo: UIView {
         override func draw(_ rect: CGRect) {
             // Fill the whole background with the darkest blue color
             //UIColor(red: 0.329, green: 0.718, blue: 0.875, alpha: 1).set()
-            UIColor(red: 20/255, green: 68/255, blue: 199/255, alpha: 1).set()
+            UIColor(red: 75/255, green: 134/255, blue: 180/255, alpha: 1).set()
             let bg = UIBezierPath(rect: rect)
             bg.fill()
 

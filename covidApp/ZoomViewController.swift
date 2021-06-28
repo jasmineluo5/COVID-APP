@@ -10,20 +10,26 @@ import MobileRTC
 
 class ZoomViewController: UIViewController {
 
+    @IBOutlet weak var joinButton: UIButton!
+    @IBOutlet weak var startButton: UIButton!
     // MARK: - LifeCycle
     override func viewDidLoad() {
         super.viewDidLoad()
+     
         // 1. The Zoom SDK requires a UINavigationController to update the UI for us. Here we are supplying the SDK with the ViewControllers' navigationController.
            MobileRTC.shared().setMobileRTCRootController(self.navigationController)
         
         /// Notification that is used to start a meeting upon log in success.
            NotificationCenter.default.addObserver(self, selector: #selector(userLoggedIn), name: NSNotification.Name(rawValue: "userLoggedIn"), object: nil)
         
-        let wavyZoom = WavyViewTwo(frame: CGRect(x: 0, y: 200, width: 502, height: 140))
+        let wavyZoom = WavyView(frame: CGRect(x: 0, y: 200, width: 502, height: 140))
         self.view.addSubview(wavyZoom)
         
         let triangle = TriangleView(frame: CGRect(x: 0, y: 300, width: 502, height: 200))
         self.view.addSubview(triangle)
+        
+        self.view.bringSubviewToFront(joinButton)
+        self.view.bringSubviewToFront(startButton)
 
   }
     // MARK: - IBOutlets
